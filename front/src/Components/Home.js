@@ -68,15 +68,7 @@ export default function Home() {
             <div className="title">
               <h1 id="title-h">Sherlock</h1>
               <p>Lost it😕. List it📃. Find it🤩.</p>
-              <Button
-                variant="custom"
-                size="lg"
-                onClick={() => {
-                  ref.current.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                Get Started
-              </Button>
+             
             </div>
           </div>
 
