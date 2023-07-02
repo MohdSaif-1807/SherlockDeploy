@@ -14,7 +14,7 @@ function Navbar() {
 
     console.log("Signed out !");
     axios({
-      url: "http://localhost:5000/signout",
+      url: "https://sherlock-backend-final.onrender.com/signout",
       method: "POST",
       headers: {
         Authorization: token ? `Bearer ${token}` : "",
