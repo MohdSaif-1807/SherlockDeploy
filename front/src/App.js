@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="https://sherlock-frontend.onrender.com/sign-up" component={Signup} exact />
+          <Route path="/sign-up" component={Signup} exact />
           <Route path="/log-in" component={Login} />
           <Route path="/feed" component={Feed} />
           <Route path="/mylistings" component={MyListings} exact />
