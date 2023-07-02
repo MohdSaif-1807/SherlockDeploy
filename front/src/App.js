@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="https://64a136326ca4562e97690235--superlative-sopapillas-834719.netlify.app/sign-up" component={Signup} exact />
+          <Route path="https://64a136d557067b30b293f18a--superlative-sopapillas-834719.netlify.app/sign-up" component={Signup} exact />
           <Route path="/log-in" component={Login} />
           <Route path="/feed" component={Feed} />
           <Route path="/mylistings" component={MyListings} exact />
