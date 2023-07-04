@@ -34,7 +34,7 @@ function LostItem() {
       });
 
       axios({
-        url: "https://sherlock-backend-final.onrender.com/postitem",
+        url: "https://sherlock-back.onrender.com/postitem",
         method: "POST",
         data: info,
         headers: {
