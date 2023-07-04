@@ -32,7 +32,7 @@ export default function Feed() {
   const [Found_item, setFound_item] = useState();
   useEffect(() => {
     Axios({
-      url: "https://sherlock-backend-final.onrender.com/getitem",
+      url: "https://sherlock-back.onrender.com/getitem",
       method: "GET",
     })
       .then((response) => {
