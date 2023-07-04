@@ -26,7 +26,7 @@ export default class Signup extends Component {
     };
     
     axios({
-      url: "https://sherlock-backend-final.onrender.com/signup",
+      url: "https://sherlock-back.onrender.com/signup",
       method: "POST",
       data: payload,
     })
