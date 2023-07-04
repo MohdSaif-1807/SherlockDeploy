@@ -107,7 +107,7 @@ function ItemPage(props) {
   useEffect(() => {
     const { location } = props;
     Axios({
-      url: `https://sherlock-backend-final.onrender.com/item/${item_id}`,
+      url: `https://sherlock-back.onrender.com/item/${item_id}`,
       method: "GET",
     })
       .then((response) => {
