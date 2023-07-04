@@ -64,7 +64,7 @@ function ItemPage(props) {
     
     Axios({
       method: "POST",
-      url: `https://sherlock-backend-final.onrender.com/activateItem/${item_id}`,
+      url: `https://sherlock-back.onrender.com/activateItem/${item_id}`,
     })
       .then((res) => {
         console.log("Activated");
@@ -323,7 +323,7 @@ function ItemPage(props) {
   const submitResponse = () => {
     // console.log(e.target.value)
     Axios({
-      url: `https://sherlock-backend-final.onrender.com/confirmResponse/${messageId}`,
+      url: `https://sherlock-back.onrender.com/confirmResponse/${messageId}`,
       method: "POST",
       data: { response: response },
     })
@@ -344,7 +344,7 @@ function ItemPage(props) {
   const delete_item = () => {
     console.log("deleted");
     Axios({
-      url: "https://sherlock-backend-final.onrender.com/deleteitem",
+      url: "https://sherlock-back.onrender.com/deleteitem",
       method: "POST",
       data: { item_id },
     })
@@ -384,7 +384,7 @@ function ItemPage(props) {
       });
     }
     Axios({
-      url: "https://sherlock-backend-final.onrender.com/edititem",
+      url: "https://sherlock-back.onrender.com/edititem",
       method: "POST",
       data: info,
     })
@@ -409,7 +409,7 @@ function ItemPage(props) {
   };
   const submitAnswer = () => {
     Axios({
-      url: "https://sherlock-backend-final.onrender.com/submitAnswer",
+      url: "https://sherlock-back.onrender.com/submitAnswer",
       method: "POST",
       data: {
         itemId: item_id,
