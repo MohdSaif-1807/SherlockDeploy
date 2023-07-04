@@ -30,7 +30,7 @@ export default function Feed() {
   useEffect(() => {
     // console.log("Test");
     Axios({
-      url: `https://sherlock-backend-final.onrender.com/mylistings/${
+      url: `https://sherlock-back.onrender.com/mylistings/${
         JSON.parse(localStorage.getItem("user"))._id
       }`,
       method: "GET",
