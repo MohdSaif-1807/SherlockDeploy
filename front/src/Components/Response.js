@@ -14,7 +14,7 @@ function Response() {
   const handleShowNumber = (response) => {
     // console.log("Inside :", response);
     Axios({
-      url: `https://sherlock-backend-final.onrender.com/getnumber/${response.belongsTo}`,
+      url: `https://sherlock-back.onrender.com/getnumber/${response.belongsTo}`,
       method: "GET",
     })
       .then((response) => {
@@ -31,7 +31,7 @@ function Response() {
   const temp = [];
   useEffect(() => {
     Axios({
-      url: `https://sherlock-backend-final.onrender.com/myresponses/${
+      url: `https://sherlock-back.onrender.com/myresponses/${
         JSON.parse(localStorage.getItem("user"))._id
       }`,
       method: "GET",
