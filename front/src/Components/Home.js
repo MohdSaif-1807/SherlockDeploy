@@ -46,7 +46,7 @@ export default function Home() {
     };
     Axios({
       method: "POST",
-      url: "https://sherlock-backend-final.onrender.com/sendmessage",
+      url: "https://sherlock-back.onrender.com/sendmessage",
       data: data,
     })
       .then((res) => {
