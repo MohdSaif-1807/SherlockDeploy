@@ -32,7 +32,7 @@ const AWS = new aws.S3({
 var uploadS3 = multer({
   storage: multerS3({
     s3: AWS,
-    bucket: "lostandfound007",
+    bucket: "lfssufia",
     acl: "public-read",
     metadata: function (req, file, cb) {
       cb(null, { fieldName: file.fieldname });
