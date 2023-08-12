@@ -72,7 +72,7 @@ export default function Feed() {
                   <Card bsPrefix="item-card">
                     <Card.Img
                       variant="top"
-                      src={`https://lostandfound007.s3.ap-northeast-1.amazonaws.com/${item.itemPictures[0].img}`}
+                      src={`https://lfssufia.s3.amazonaws.com/${item.itemPictures[0].img}`}
                     />
                     <Card.Body bsPrefix="card-body">
                       <Card.Title
@@ -124,7 +124,7 @@ export default function Feed() {
                   <Card bsPrefix="item-card" key={item.name}>
                     <Card.Img
                       variant="top"
-                      src={`https://lostandfound007.s3.ap-northeast-1.amazonaws.com/${item.itemPictures[0].img}`}
+                      src={`https://lfssufia.s3.amazonaws.com/${item.itemPictures[0].img}`}
                     />
                     <Card.Body bsPrefix="card-body">
                       <Card.Title
