@@ -18,8 +18,9 @@ function Response() {
       method: "GET",
     })
       .then((response) => {
-         console.log(response.data.number);
-        setPhoneNumber(response.data.number);
+        console.log(response.Number);
+         console.log(response.data.Number);
+        setPhoneNumber(response.data.Number);
       })
       .finally(() => {
         setShowNumber(true);
