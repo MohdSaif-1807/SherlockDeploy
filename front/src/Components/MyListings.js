@@ -62,7 +62,7 @@ export default function Feed() {
                 <Card bsPrefix="item-card" style={{ maxHeight: "465px" }}>
                   <Card.Img
                     variant="top"
-                    src={`https://lostandfound007.s3.ap-northeast-1.amazonaws.com/${item.itemPictures[0].img}`}
+                    src={`https://lfssufia.s3.amazonaws.com/${item.itemPictures[0].img}`}
                   />
                   <Card.Body bsPrefix="card-body">
                     {item.status ? (
