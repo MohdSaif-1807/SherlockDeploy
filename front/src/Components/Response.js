@@ -19,7 +19,7 @@ function Response() {
     })
       .then((response) => {
         // console.log(response.data.Number);
-        setPhoneNumber(response.data.Number);
+        setPhoneNumber(response.data.number);
       })
       .finally(() => {
         setShowNumber(true);
