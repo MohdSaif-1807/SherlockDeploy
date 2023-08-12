@@ -445,7 +445,7 @@ function ItemPage(props) {
               return (
                 <div style={{ border: "2px solid black" }}>
                   <img
-                    src={`https://lostandfound007.s3.ap-northeast-1.amazonaws.com/${i.img}`}
+                    src={`https://lfssufia.s3.amazonaws.com/${i.img}`}
                     alt="item"
                   />
                 </div>
